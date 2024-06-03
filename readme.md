@@ -26,7 +26,7 @@ The render count for the PeopleCardList.tsx file should be 2 as well
 - Render all the persons, regardless their age, gender, if there's an error, etc
 - Create a delete button for the persons
 - Delete that person from the store
-- Get the corresponding UI
+- Match the people card person
 
 The render count for the App.tsx file should be 2
 The render count for the PeopleCardList.tsx file should be 2
