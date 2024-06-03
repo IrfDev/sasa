@@ -1,7 +1,7 @@
 import RenderCounterComponent from "./components/RenderCounter";
 
 function App() {
-  // Get all female persons between 30 and 55
+  // Get all female persons between 30 and 45
 
   return (
     <>
