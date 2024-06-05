@@ -1,13 +1,14 @@
 import RenderCounterComponent from "./RenderCounter";
 
-type Props = {};
-
-const PeopleCardList = (props: Props) => {
+const PeopleCardList = () => {
   // Use your state store to use the people in there
   return (
     <>
       <div>PeopleCardList</div>
-      <RenderCounterComponent />
+
+      <section className="bg-indigo-300 text-indigo-900">
+        People card component number of renders: <RenderCounterComponent />
+      </section>
     </>
   );
 };
