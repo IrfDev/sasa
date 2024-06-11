@@ -7,7 +7,7 @@ interface PeopleCard extends React.PropsWithChildren {
   country_id?: string;
 }
 
-const PeopleCard: React.FC<PeopleCard> = ({ children }) => {
+const PeopleCard: React.FC<PeopleCard> = () => {
   return <div>PeopleCard</div>;
 };
 
